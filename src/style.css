@@ -332,6 +332,10 @@ div.btn-pricings {
   margin-top: 1rem;
 }
 
+.btn-pricings-small {
+  display: none;
+}
+
 
 a.btn-pricing {
   background-color: var(--primary-light);

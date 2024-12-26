@@ -332,6 +332,7 @@ div.btn-pricings {
   margin-top: 1rem;
 }
 
+
 .btn-pricings-small {
   display: none;
 }
@@ -506,6 +507,13 @@ a.btn-pricing {
 }
 .footer-right a:hover {
   color: var(--light);
+}
+.w-sm {
+  display: none;
+}
+
+.w-lg {
+  display: block;
 }
 
 .copyright {
@@ -698,7 +706,8 @@ a.btn-pricing {
     display: none;
   }
 
-  .small-business .btn-pricings-small {
+  .small-business .btn-pricings-small, .extra-features .btn-pricings-small {
+    display: block;
     padding-top: 1rem;
     text-align: center;
   }
